@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.formulario-registro {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.formulario-registro label {
+    display: block; 
+    margin-top: 10px;
+}
+
+.formulario-registro input {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.formulario-registro button {
+    margin-top: 2px;
+    padding: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.formulario-registro button:hover {
+    background-color: #0056b3;
+}
