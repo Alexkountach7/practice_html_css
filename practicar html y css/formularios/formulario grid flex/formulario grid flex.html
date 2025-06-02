@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de inscripcion con grid y flexbox</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+    <form class="form-inscripcion">
+        <h2>inscripcion al evento</h2>
+    
+    <div class="campo">
+        <label for="nombre">nombre completo</label>
+        <input type="texto" id="nombre" name="nombre" required>
+    
+    <div class="campo">
+        <label for="email">correo electronico</label>
+        <input type="email" id="email" name="email" required>
+    
+    <div class="campo">
+        <label for="telefono">telefono:</label>
+        <input type="phone" id="telefono" name="telefono" required>
+    
+    <div class="campo">
+        <label for="ciudad">ciudad</label>
+        <select id="ciudad" name="ciudad">
+        <opcion value="">seleccione</opcion>
+        <opcion value="cdmx">cdmx</opcion>
+        <opcion value="guadalajara">guadalajara</opcion>
+        <opcion value="monterrey">monterrey</opcion>
+
+    <div class="campo genero">
+        <span>genero:</span>
+        <label><input type="radio" name="genero" value="masculino">masculino</label>
+        <label><input type="radio" name="genero" value="femenino">femenino</label>
+        <label><input type="radio" name="genero" value="otro">otro</label>
+    </div>
+
+    <div class="campo campo-cometarios">
+        <label for="comentarios">comentarios</label>
+        <textarea id="comentarios" name="comentarios"></textarea>
+    </div>
+
+    <div class="boton-container">
+        <button type="submit">enviar inscripcion</button>
+    </div>
+</form>
+    </div>
+</body>
+</html>

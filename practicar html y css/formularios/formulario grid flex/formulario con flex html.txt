@@ -1,0 +1,57 @@
+<!-- inscripcion.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Inscripción</title>
+  <link rel="stylesheet" href="inscripcion.css">
+</head>
+<body>
+  <div class="contenedor">
+    <form class="form-inscripcion">
+      <h2>Inscripción al Evento</h2>
+
+      <div class="campo">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+
+      <div class="campo">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="campo">
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono">
+      </div>
+
+      <div class="campo">
+        <label for="ciudad">Ciudad</label>
+        <select id="ciudad" name="ciudad">
+          <option value="">Seleccione</option>
+          <option value="cdmx">CDMX</option>
+          <option value="guadalajara">Guadalajara</option>
+          <option value="monterrey">Monterrey</option>
+        </select>
+      </div>
+
+      <div class="campo genero">
+        <span>Género:</span>
+        <label><input type="radio" name="genero" value="masculino"> Masculino</label>
+        <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+        <label><input type="radio" name="genero" value="otro"> Otro</label>
+      </div>
+
+      <div class="campo campo-comentarios">
+        <label for="comentarios">Comentarios</label>
+        <textarea id="comentarios" name="comentarios"></textarea>
+      </div>
+
+      <div class="boton-container">
+        <button type="submit">Enviar inscripción</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
