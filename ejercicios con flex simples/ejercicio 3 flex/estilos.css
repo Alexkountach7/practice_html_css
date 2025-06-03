@@ -1,0 +1,4 @@
+.container{ 
+    display: flex;
+    justify-content: space-between;/* prueba con space-around, center, flex-start, flex-end*/
+}/*espacia los elementos con espacio entre ellos, pero no en los extremos. 
