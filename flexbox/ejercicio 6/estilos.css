@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap; /* permite que los elementos salten a la siguiente fila si no caben en una sola linea */
+    gap: 10px; /*agrega espacio entre imagenes, tanto en filar como columnas*/
+    padding: 10px; /*agraga un margen interior al contenedor*/
+}
+
+.galeria img {
+    flex: 1 1 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+.img-crece {
+    flex-grow: 2;
+}
+
+.img-alineada {
+    align-self: flex-start;
+    margin-top: -20px;
+
+}
+
+@media (min-width:768px) {
+    .galeria img {
+        width: calc(33.3% - 10px); /*cada imagen ocupa un tercio del ancho del contenedor pero se le resta 10px*/
+    }
+}

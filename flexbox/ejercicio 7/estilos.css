@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navegacion {
+    display: flex; /*activa el modelo de diseño flexbox*/
+    justify-content: space-around;/*distribuye los elementos de forma uniforme*/
+    align-items: center;/*alinea los elementos verticalmente en el centro*/
+    padding: 10px; /*añade un poco de espacio dentro del menu*/
+    background-color: #0de053; /*establece un color de fondo oscuro*/
+}
+
+.menu a {
+    color: white;
+    padding: 10px;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+@media (min-width:768px) {
+    .menu {
+        flex-direction: row;/*barra horizontal*/
+    }
+
+    .menu a {
+        margin: 0 10 px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu{
+        flex-direction: column; /*barra vertical*/
+        align-items: flex-start; /*alineacion a la izquierda*/
+    }
+
+    menu a {
+        width: 100%;
+        text-align: left;
+        padding: 15px;
+    }
+
+}
+
+.especial { 
+    align-self: flex-end;/*el enlace blog se posicionara al final en la barra vertical*/
+}

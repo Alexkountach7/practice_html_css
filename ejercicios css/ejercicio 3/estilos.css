@@ -1,0 +1,22 @@
+/* estilos.css */
+
+/* Selector por tipo para h1 */
+h1 {
+    color: red;
+}
+
+/* Selector por tipo para párrafos */
+p {
+    font-size: 20px;
+}
+
+/* Selector por tipo para enlaces */
+a {
+    text-decoration: none; /* sin subrayado por defecto */
+    color: blue;           /* color base opcional */
+}
+
+/* Pseudo-clase para efecto al pasar el ratón por encima del enlace */
+a:hover {
+    text-decoration: underline;
+}

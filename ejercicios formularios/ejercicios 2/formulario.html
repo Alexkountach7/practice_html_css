@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>formulario de registro con multiples campos</title>
+    </head>
+    <body>
+        <h2>formulario de registro</h2>
+        <form action="/registrar" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="fecha">fecha:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required> 
+
+        </form>
+    </body>
+</html>

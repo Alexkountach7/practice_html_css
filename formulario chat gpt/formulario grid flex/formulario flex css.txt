@@ -1,0 +1,89 @@
+/* inscripcion.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.form-inscripcion {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 700px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-inscripcion h2 {
+  grid-column: span 2;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+}
+
+.genero {
+  grid-column: span 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.genero span {
+  width: 100px;
+}
+
+.campo-comentarios {
+  grid-column: span 2;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.boton-container {
+  grid-column: span 2;
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004999;
+}
+
+@media (max-width: 600px) {
+  .form-inscripcion {
+    grid-template-columns: 1fr;
+  }
+
+  .boton-container {
+    justify-content: center;
+  }
+
+  .genero span {
+    width: auto;
+  }
+}

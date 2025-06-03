@@ -1,0 +1,44 @@
+.body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.form-inscripcion {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 700px;
+    width: 100%;
+    display: grid;
+    gap: 20px;
+}
+
+.form-inscripcion h2 {
+    grid-column: span 2;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.genero {
+    grid-column: span 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.genero span { 
+    width: 100px;
+}

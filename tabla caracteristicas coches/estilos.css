@@ -1,0 +1,25 @@
+h2 { 
+    text-align: center;
+    color: brown;
+}
+
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+tr, td, th {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid;
+
+}
+
+td{
+    background-color: aqua;
+}
+
+th {
+    background-color: beige;
+}
