@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    color: white;
+    background-color: #2f5d34;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.contacto {
+    padding-left: 10px;
+}
+
+.logo {
+
+margin-right: 10px;
+}
+
+nav {
+    background-color: #b0d292;
+    padding: 8px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+nav li {
+    margin: 0 40px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.contenido{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.imagenfood img {
+    width: 250px;
+    margin-bottom: 10px;
+}
