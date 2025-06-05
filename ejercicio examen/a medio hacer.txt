@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #2f5d34;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.contacto {
+  margin-left: 10px;
+}
+
+.logo img {
+  width: 100px;
+  margin-right: 10px;
+}
+
+nav {
+  background-color: #b0d292;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.contenido {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.imagenes img {
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.carta {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+.carta h2 {
+  text-align: center;
+  background-color: #b0d292;
+  padding: 5px;
+}
+
+.carta ul {
+  list-style: none;
+  padding: 0;
+}
+
+.carta li {
+  border: 1px solid #b0d292;
+  margin-bottom: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #2f5d34;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejercicio 2 - Tablas con Flexbox</title>
+<link rel="stylesheet" href="ejercicio2.css">
+</head>
+<body>
+
+<h1>Dos Tablas Arriba, Una Abajo</h1>
+
+<div class="contenedor">
+  <div class="superior">
+    <table>
+      <thead>
+        <tr><th>Tabla A</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Fila A1</td></tr>
+        <tr><td>Fila A2</td></tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr><th>Tabla B</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Fila B1</td></tr>
+        <tr><td>Fila B2</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="inferior">
+    <table>
+      <thead>
+        <tr><th>Tabla C (Abajo)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Fila C1</td></tr>
+        <tr><td>Fila C2</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.superior {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 45%;
+}
+
+.inferior table {
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #000;
+  padding: 8px;
+}
+
+th {
+  background-color: #eee;
+}

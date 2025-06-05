@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>El Garaje Bar</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <div class="contacto">
+      <p>Plaza Gabriel Miró, 14<br>03001 Alicante</p>
+      <p>Telf. 965141455</p>
+    </div>
+    <div class="logo">
+      <img src="logo.png" alt="El Garaje Bar Logo">
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Quiénes somos</a></li>
+      <li><a href="#">La carta</a></li>
+      <li><a href="#">Exposición</a></li>
+      <li><a href="#">Eventos</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section class="contenido">
+    <div class="imagenes">
+      <img src="anillas.jpg" alt="Anillas de cebolla">
+      <img src="aros.jpg" alt="Aros crujientes">
+    </div>
+
+    <div class="carta">
+      <h2>Para Arrancar</h2>
+      <ul>
+        <li><strong>Marinera made in Murcia.</strong> Acho! Ensaladilla con anchoa del Cantábrico. <span>1,90€</span></li>
+        <li><strong>Ensaladilla Rusa.</strong> Como la hacía mi padre. <span>4,20€</span></li>
+        <li><strong>Nachos Pata Negra.</strong> Totopos con cheddar fundido, camembert, carne... <span>9,50€</span></li>
+        <li><strong>Pollo Confetti.</strong> Pollo crujiente a nuestro rollo. <span>5,50€</span></li>
+        <li><strong>Tarantino.</strong> Queso frito con confitura de tomate. <span>6,50€</span></li>
+        <li><strong>Cumpleaños total.</strong> Serán las bravas de siempre? <span>4,70€</span></li>
+        <li><strong>Aros G L A S.</strong> Entra en el círculo vicioso de cebolla crujiente. <span>5,80€</span></li>
+        <li><strong>ALT-J.</strong> Taco de maíz con guacamole. <span>5,90€</span></li>
+        <li><strong>Patatas Ringo Starr.</strong> Patatas con migas de queso azul. <span>6,50€</span></li>
+        <li><strong>Los Ramones.</strong> Huevos rotos trufados. <span>9,90€</span></li>
+        <li><strong>Pizzicato Five.</strong> Huevos rotos con bacon y crema de camembert. <span>7,20€</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <a href="#">SIGUIENTE</a>
+  </footer>
+</body>
+</html>
