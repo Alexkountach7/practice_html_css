@@ -1,0 +1,23 @@
+
+    .banner {
+      background-image: url('https://via.placeholder.com/1200x400'); /* Puedes reemplazar esta URL con tu imagen */
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .banner h1 {
+      font-size: 3em;
+      background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro semitransparente para mejor lectura */
+      padding: 20px 30px;
+      border-radius: 10px;
+      margin: 0;
+    } 
+
+    
