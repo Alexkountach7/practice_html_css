@@ -1,0 +1,26 @@
+<educacion>
+  <ciclo>
+    <nombre>Administración de Sistemas Informáticos</nombre>
+    <decretotitulo año="2007" numero="123"/>
+    <familia>Informática</familia>
+    <duracion>2000</duracion>
+  </ciclo>
+  <ciclo>
+    <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+    <decretotitulo año="2018" numero="456"/>
+    <familia>Informática</familia>
+    <duracion>2000</duracion>
+  </ciclo>
+  <ciclo>
+    <nombre>Cuidados Auxiliares de Enfermería</nombre>
+    <decretotitulo año="2005" numero="789"/>
+    <familia>Sanidad</familia>
+    <duracion>1400</duracion>
+  </ciclo>
+  <ciclo>
+    <nombre>Laboratorio Clínico y Biomédico</nombre>
+    <decretotitulo año="2010" numero="321"/>
+    <familia>Sanidad</familia>
+    <duracion>2000</duracion>
+  </ciclo>
+</educacion>
